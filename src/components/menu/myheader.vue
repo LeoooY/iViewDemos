@@ -1,19 +1,19 @@
 <template>
     <div id='myheader'>
         <Menu mode="horizontal" :theme="'light'" active-name="1">
-            <MenuItem name="1">
-                <Icon type="ios-paper" />Menu
+            <MenuItem name="1" to="/">
+                <Icon type="ios-paper" />Home
             </MenuItem>
 
 
-            <MenuItem name="2">
-                <Icon type="ios-peple" />Menu2
+            <MenuItem name="2" to="/about">
+                <Icon type="ios-people" />About
             </MenuItem>
 
 
             <Submenu name="3" >
                 <template slot="title">
-                    <Icon type="ios-staus" />分析
+                    <Icon type="ios-status" />分析
                 </template>
                 
                 <MenuGroup title="Group1">
