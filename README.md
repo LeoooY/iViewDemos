@@ -24,3 +24,11 @@ npm run test
 ```
 npm run lint
 ```
+
+
+### plug-ins
+[Iview](https://www.iviewui.com/docs/guide/install)
+vue 
+[vue-i18n](http://kazupon.github.io/vue-i18n/) 
+vue add i18n
+[vue-i18n懒加载](http://kazupon.github.io/vue-i18n/guide/lazy-loading.html)

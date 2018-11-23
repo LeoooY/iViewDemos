@@ -2,7 +2,7 @@
   <div id="app">
     <my-header></my-header>
 
-    <my-menu-v :text="text" :num="num"></my-menu-v>
+    <my-menu-v :text="text" :num="Num"></my-menu-v>
   
     <div id="router-pages">
       <router-link to="/">home</router-link>
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
+  // import HelloWorld from './components/HelloWorld.vue'
   
   import myHeader from './components/menu/myheader.vue'
   import myMenuV from './components/menu/menuVertical.vue'
@@ -36,16 +36,21 @@
     data () {
       return {
         text:"props via app.vue",
-        num:1,  
+        Num:1,  
       }
     },
     methods: {
       add(){
-        this.num++;
+        this.Num++;
       },
       decrease(){
-        this.num--;
-      }
+        this.Num--;
+      },
+      
+    },
+    computed: {
+      
+      
     },
     components: {
       // HelloWorld,
