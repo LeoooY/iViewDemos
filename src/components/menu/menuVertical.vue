@@ -1,7 +1,7 @@
 <template>
     <div id='menuVertical'>
         <Row id="side">
-            <i-col span="12">
+            <i-col span="9">
             <!--:open-names="['1']"-->
             <Menu active-name="1-2" mode="vertical" :width="'auto'" >
               <Submenu name="1">
