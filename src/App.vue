@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <my-header></my-header>
-
     <!-- <my-menu-v :text="text" :num="Num"></my-menu-v> -->
-
     <!-- <div id="router-pages">
       <router-link to="/">home</router-link>
       <span>|</span>
@@ -11,17 +9,12 @@
     </div>
     <Button type="primary" @click="add()">Add</Button>
     <Button type="primary" @click="decrease()">Decrease</Button>-->
-    
     <mySide></mySide>
-   
-    <div id="myContent" >
+    <div id="myContent">
       <transition name="fade" mode="out-in">
         <router-view></router-view>
       </transition>
     </div>
-
-
-
   </div>
 </template>
 

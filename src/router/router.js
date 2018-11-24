@@ -10,12 +10,18 @@ export default new Router({
     {
       path: '/',  
       name: 'home',
+      // redirect: '/side2',      
       component: Home,
       children: [
           {
             path:'',
             
             component:Side,
+          },
+          {
+            path:'/side2',
+            
+            component: () => import(/* webpackChunkName: "about" */ '@/views/About.vue')
           }
         ]
       

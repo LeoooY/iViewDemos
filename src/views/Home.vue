@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Home page "/>
+    <router-view/>
   </div>
 </template>
 
