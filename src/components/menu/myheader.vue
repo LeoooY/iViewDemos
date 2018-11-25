@@ -36,11 +36,11 @@
 
             <Submenu name="4" >
                 <template slot="title">
-                    <Icon type="ios-status" />分析
+                    <Icon type="ios-status" />Portal
                 </template>
                 
                 <MenuGroup title="Group1">
-                    <MenuItem name="4-1">G-I-1</MenuItem>
+                    <MenuItem name="4-1" to="/LanguageManage">语言管理</MenuItem>
                     <MenuItem name="4-1">G-I-1</MenuItem>
                     <MenuItem name="4-3">G-I-3</MenuItem>
                 </MenuGroup>

@@ -14,14 +14,14 @@ export default new Router({
       component: Home,
       children: [
           {
-            path:'',
+            path:'/side',
             
             component:Side,
           },
           {
-            path:'/side2',
+            path:'',
             
-            component: () => import(/* webpackChunkName: "about" */ '@/views/About.vue')
+            component: () => import(/* webpackChunkName: "about" */ '@/components/Child.vue')
           }
         ]
       
@@ -41,6 +41,15 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ '@/views/iViewBasic/Color.vue')
+    },
+    {
+      path: '/LanguageManage',
+      name: 'LanguageManage',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '@/views/PortalPages/LanguageManage.vue')
+
     }
   ]
 })
