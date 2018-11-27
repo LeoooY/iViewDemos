@@ -17,8 +17,8 @@
 
                 <MenuGroup title="基础" >
                     <MenuItem name="3-01" to="/Color">Color颜色</MenuItem>
-                    <MenuItem name="3-02">Font字体</MenuItem>
-                    <MenuItem name="3-03">Button按钮</MenuItem>
+                    <MenuItem name="3-02" to="/Font">Font字体</MenuItem>
+                    <MenuItem name="3-03" to="/Button">Button按钮</MenuItem>
                     <MenuItem name="3-04">Icon图标</MenuItem>
                 </MenuGroup>
                 <MenuGroup title="布局" >

@@ -43,6 +43,22 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ '@/views/iViewBasic/Color.vue')
     },
     {
+      path: '/Font',
+      name: 'Font',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '@/views/iViewBasic/Font.vue')
+    },
+    {
+      path: '/Button',
+      name: 'Button',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '@/views/iViewBasic/Button.vue')
+    },
+    {
       path: '/LanguageManage',
       name: 'LanguageManage',
       // route level code-splitting
